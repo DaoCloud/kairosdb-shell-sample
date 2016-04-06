@@ -1,0 +1,10 @@
+version: 2.0
+
+test:
+    image: ubuntu:14.04
+  
+    services:
+        - kairosdb
+  
+    script:
+        - bash test.sh
