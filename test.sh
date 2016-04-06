@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 2
+sleep 10
 # Current time in milliseconds
 now=$(($(date +%s%N)/1000000))
 metric=load_value_test
